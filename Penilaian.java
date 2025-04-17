@@ -25,7 +25,7 @@ public class Penilaian {
     //tampildata
     void tampilData(){
         System.out.println("Data penilaian: ");
-        System.out.println(" mahasiswa: " + mahasiswa + mataKuliah + "Nilai Akhir : " + nilaiAkhir);
+        System.out.println(mahasiswa + "|" + mataKuliah + "| Nilai Akhir : " + nilaiAkhir);
 
         
 
