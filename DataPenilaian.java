@@ -12,4 +12,10 @@ public class DataPenilaian {
             mk.tampilMataKuliah();
         }
     }
+
+    void tampilpen() {
+        for (Penilaian pen : datapen) {
+            pen.tampilData();
+        }
+    }
 }
