@@ -1,7 +1,7 @@
 public class DataPenilaian {
-    Mahasiswa [] datamhs = new Mahasiswa [3];
-    MataKuliah [] datamk = new MataKuliah [3];
-    Penilaian [] datapen = new Penilaian [3];
+    Mahasiswa [] datamhs = new Mahasiswa [5];
+    MataKuliah [] datamk = new MataKuliah [5];
+    Penilaian [] datapen = new Penilaian [5];
     void tampilmhs() {
         for (Mahasiswa m : datamhs) {
             m.tampilMahasiswa();
