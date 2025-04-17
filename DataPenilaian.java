@@ -7,4 +7,9 @@ public class DataPenilaian {
             m.tampilMahasiswa();
         }
     }
+    void tampilmk () {
+        for (MataKuliah mk : datamk) {
+            mk.tampilMataKuliah();
+        }
+    }
 }
