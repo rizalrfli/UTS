@@ -15,11 +15,19 @@ public class Penilaian {
         this.nilaiTugas = nilaiTugas;
         this.nilaiUTS = nilaiUTS;
         this.nilaiUAS = nilaiUAS;
-        
+
     }
 
     void hitungNilaiAkhir() {
         this.nilaiAkhir = (0.3 * nilaiTugas) + (0.3 * nilaiUTS) + (0.4 * nilaiUAS);
     }
-     
+    
+    //tampildata
+    void tampilData(){
+        System.out.println("Data penilaian: ");
+        System.out.println(" mahasiswa: " + mahasiswa + mataKuliah + "Nilai Akhir : " + nilaiAkhir);
+
+        
+
+    }
 }
