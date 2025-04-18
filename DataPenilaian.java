@@ -12,10 +12,22 @@ public class DataPenilaian {
             mk.tampilMataKuliah();
         }
     }
-
     void tampilpen() {
         for (Penilaian pen : datapen) {
             pen.tampilData();
+        }
+    }
+    void SortingDSC(){
+        for (int i = 0; i < datapen.length - 1; i++) {
+            int idxMax = i;
+            for (int j = i + 1; j < datapen.length; j++) {
+                if (datapen[j].nilaiAkhir > datapen[idxMax].nilaiAkhir) {
+                    idxMax = j;
+                }
+            }
+            Penilaian tmp = datapen[idxMax];
+            datapen[idxMax] = datapen[i];
+            datapen[i] = tmp;
         }
     }
 }
