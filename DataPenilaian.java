@@ -30,4 +30,16 @@ public class DataPenilaian {
             datapen[i] = tmp;
         }
     }
+    void PencarianData(String nim) {
+        boolean ketemu = false;
+        for (Mahasiswa m : datamhs) {
+            if (m.nim.equalsIgnoreCase(nim)) {
+                m.tampilMahasiswa();
+                ketemu = true;
+            }
+        }
+        if (ketemu) {
+            System.out.println("Peringatan: Mahasiswa dengan NIM " + nim + " tidak ditemukan.");
+        }
+    }
 }
