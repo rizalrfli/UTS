@@ -50,8 +50,8 @@ public class MainData {
                     dp.tampilpen();
                     break;
                 case 4:
-                    dp.tampilpen();
                     dp.SortingDSC();
+                    dp.tampilpen();
                     break;
                 case 5:
                     System.out.print("Masukkan NIM Mahasiswa yang dicari: ");
