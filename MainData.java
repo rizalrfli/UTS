@@ -61,6 +61,6 @@ public class MainData {
                 default:
                     System.out.println("Pilihan tidak tersedia.");
             }
-        } while (pilihan != 6);
+        } while (pilihan != 0);
      }
 }
