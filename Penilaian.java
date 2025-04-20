@@ -15,7 +15,7 @@ public class Penilaian {
         this.nilaiTugas = nilaiTugas;
         this.nilaiUTS = nilaiUTS;
         this.nilaiUAS = nilaiUAS;
-
+        hitungNilaiAkhir();
     }
 
     void hitungNilaiAkhir() {
@@ -25,7 +25,7 @@ public class Penilaian {
     //tampildata
     void tampilData(){
         System.out.println("Data penilaian: ");
-        System.out.println(mahasiswa + "|" + mataKuliah + "| Nilai Akhir : " + nilaiAkhir);
+        System.out.println(mahasiswa.nama + "|" + mataKuliah.namaMK + "| Nilai Akhir : " + nilaiAkhir);
 
         
 
